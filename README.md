@@ -61,7 +61,7 @@ Step4: Look at the generated images in the "output" directory
 <img src="output/bormes_citybythelake/generated_image.jpg" height="200">
 <img src="images/picasso.jpg" height="300">
 <img src="output/bormes_picasso/generated_image.jpg" height="200">
-<img src="images/starrynight.jpeg.jpg" height="300">
+<img src="images/starrynight.jpeg" height="300">
 <img src="output/bormes_starrynight/generated_image.jpg" height="200">
 </div>
 
