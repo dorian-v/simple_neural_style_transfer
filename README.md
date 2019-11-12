@@ -36,14 +36,14 @@ Step4: Look at the generated images in the "output" directory
 ## Examples
 
 <div align="center">
-<img src="images/golden_gate.jpg" height="250">
-<img src="output/golden_gate_picasso/generated_image.jpg" height="250px">
-<img src="output/golden_gate_starry_night/generated_image.jpg" height="250px">
-<img src="output/golden_gate_scream/generated_image.jpg" height="250px">
-<img src="output/golden_gate_monet/540.png" height="250px">
+<img src="images/golden_gate.jpg" height="250" width="250">
+<img src="output/golden_gate_picasso/generated_image.jpg" height="250">
+<img src="output/golden_gate_starry_night/generated_image.jpg" height="250">
+<img src="output/golden_gate_scream/generated_image.jpg" height="250">
+<img src="output/golden_gate_monet/540.png" height="250">
 
-<img src="images/vincent.jpg" height="250px">
-<img src="output/vincent_picasso.png" height="250px">
-<img src="images/clement.jpg" height="250px">
-<img src="output/clement/edtaonisl.jpg" height="250px">
+<img src="images/vincent.jpg" height="250">
+<img src="output/vincent_picasso.png" height="250">
+<img src="images/clement.jpg" height="250">
+<img src="output/clement/edtaonisl.jpg" height="250">
 </div>
