@@ -37,6 +37,9 @@ Step4: Look at the generated images in the "output" directory
 
 <div align="center">
 <img src="images/golden_gate.jpg" height="300" width="400">
+</div>
+
+<div align="center">
 <img src="output/golden_gate_picasso/generated_image.jpg" height="300">
 <img src="output/golden_gate_starry_night/generated_image.jpg" height="300">
 <img src="output/golden_gate_scream/generated_image.jpg" height="300">
@@ -44,8 +47,21 @@ Step4: Look at the generated images in the "output" directory
 </div>
 
 <div align="center">
-<img src="images/vincent.jpg" height="300">
-<img src="output/vincent_picasso.png" height="300">
-<img src="images/clement.jpg" height="300">
-<img src="output/clement/edtaonisl.jpg" height="300">
+<img src="output/bormes_candy/bormes.jpg" height="300">
+</div>
+
+<div align="center">
+<img src="output/bormes_candy/generated_image.jpg" height="300">
+<img src="output/bormes_citybythelake/generated_image.jpg" height="300">
+<img src="output/bormes_picasso/generated_image.jpg" height="300">
+<img src="output/bormes_starrynight/generated_image.jpg" height="300">
+</div>
+
+<div align="center">
+<img src="images/vincent.jpg" height="200">
+<img src="images/picasso2.jpg" height="200" width="200">
+<img src="output/vincent_picasso.png" height="200">
+<img src="images/clement.jpg" height="200">
+<img src="images/edtaonisl.jpg.jpg" height="200" width="200">
+<img src="output/clement/edtaonisl.jpg" height="200">
 </div>
