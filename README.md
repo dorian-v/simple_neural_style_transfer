@@ -36,7 +36,7 @@ Step4: Look at the generated images in the "output" directory
 ## Examples
 
 <div align="center">
-<img src="images/golden_gate.jpg" height="300" width="400">
+<img src="images/golden_gate.jpg">
 </div>
 
 <div align="center">
@@ -51,7 +51,7 @@ Step4: Look at the generated images in the "output" directory
 </div>
 
 <div align="center">
-<img src="output/bormes_candy/bormes.jpg" height="300">
+<img src="output/bormes_candy/bormes.jpg">
 </div>
 
 <div align="center">
@@ -64,6 +64,9 @@ Step4: Look at the generated images in the "output" directory
 <img src="images/starrynight.jpeg" height="300">
 <img src="output/bormes_starrynight/generated_image.jpg" height="200">
 </div>
+
+
+
 
 <div align="center">
 <img src="images/vincent.jpg" height="200">
