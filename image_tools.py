@@ -1,13 +1,10 @@
-from config import CONFIG
+import imageio
 import numpy as np
-import scipy
+from config import CONFIG
+from PIL import Image
 
 
 def generate_noise_image(content_image, noise_ratio=CONFIG.NOISE_RATIO):
-    """
-    Generates a noisy image by adding random noise to the content_image
-    """
-
     # Generate a random noise_image
     noise_image = np.random.uniform(-20, 20,
                                     (1, CONFIG.IMAGE_HEIGHT, CONFIG.IMAGE_WIDTH, CONFIG.COLOR_CHANNELS)).astype(
@@ -20,12 +17,8 @@ def generate_noise_image(content_image, noise_ratio=CONFIG.NOISE_RATIO):
 
 
 def reshape_and_normalize_image(image):
-    """
-    Reshape and normalize the input image (content or style)
-    """
-
-    # Reshape image to mach expected input of VGG16
-    image = scipy.misc.imresize(image, (CONFIG.IMAGE_HEIGHT, CONFIG.IMAGE_WIDTH))
+    # Reshape image to mach expected input of VGG19
+    image = np.array(Image.fromarray(image).resize((CONFIG.IMAGE_WIDTH, CONFIG.IMAGE_HEIGHT)))
     image = np.reshape(image, ((1,) + image.shape))
 
     # Subtract the mean to match the expected input of VGG16
@@ -40,4 +33,4 @@ def save_image(path, image):
 
     # Clip and Save the image
     image = np.clip(image[0], 0, 255).astype('uint8')
-    scipy.misc.imsave(path, image)
+    imageio.imwrite(path, image)

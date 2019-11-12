@@ -12,12 +12,11 @@ the style of another to generate a new image.
 
 ## Dependencies
 
-Numpy
+```
+pip install -r requirements.txt
+```
 
-Scipy
-
-TensorFlow
-
+(If you want to use a GPU use tensorflow-gpu)
 
 ## Usage
 
@@ -64,9 +63,6 @@ Step4: Look at the generated images in the "output" directory
 <img src="images/starrynight.jpeg" height="300" width="300">
 <img src="output/bormes_starrynight/generated_image.jpg" height="300">
 </div>
-
-
-
 
 <div align="center">
 <img src="images/vincent.jpg" height="200">
